@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import './App.css'
-import Cart from './pages/cart'
+import Cart from "./pages/Cart"
 import ProductDetails from './pages/ProductDetails'
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
     <>
     <BrowserRouter>
       <Routes>
-        <Route path='/' element={<Cart/>}/>
+        <Route path='/'element={<Cart/>}/>
         <Route path='/:id' element={<ProductDetails/>}/>
       </Routes>
     </BrowserRouter>
